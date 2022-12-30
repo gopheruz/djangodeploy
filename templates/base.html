@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Nurmuhammad</title>
+</head>
+<body>
+    <header>
+        <a href="{% url 'home' %}">Bosh sahifa</a>
+        <a href="{% url 'about' %}">Saytimiz haqida</a>
+        <a href="{% url 'task' %}">Task</a>
+    </header>
+    {% block content %}
+    {% endblock content %}
+</body>
+</html>
